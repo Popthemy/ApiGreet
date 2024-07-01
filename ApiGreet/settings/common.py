@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 
-
+ALLOWED_HOSTS = ['127.0.0.1','localhost:800','api-greet.vercel.app/','localhost','leegreen.pythonanywhere.com']
 
 
 
