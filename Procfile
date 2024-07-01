@@ -1,0 +1,1 @@
+web: gunicorn ApiGreet.wsgi --log-file -

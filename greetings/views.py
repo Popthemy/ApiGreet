@@ -11,7 +11,7 @@ def hello(request):
     data = {
         'client_ip': client_ip,
         'location': location,
-        'greeting': f'Hello, {name}!, the temperature is 11 degree Celcius ins {location} '
+        'greeting': f'Hello, {name}!'
     }
 
     return JsonResponse(data)
