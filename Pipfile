@@ -8,6 +8,7 @@ django = "*"
 gunicorn = "*"
 requests = "*"
 waitress = "*"
+djangorestframework = "*"
 
 [dev-packages]
 
